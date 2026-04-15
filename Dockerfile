@@ -29,4 +29,4 @@ RUN addgroup -g 1001 -S n8nuser && \
             ENTRYPOINT ["dumb-init", "--"]
 
             # Start n8n
-            CMD ["n8n", "start"]
+CMD ["n8n"]
